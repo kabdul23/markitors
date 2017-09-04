@@ -1,0 +1,353 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body, p {
+    font-size: 16px;
+}
+
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #5c5c5c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #515151;
+    -webkit-font-smoothing: antialiased;
+}
+/*-----Navigation-----*/
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar-nav {
+    background-color: #fff;
+    padding-top: 2%;
+    padding-left: 6%;
+}
+
+#logo {
+   margin-top: 2%;
+}
+
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+    border-bottom-color:#64bb43;  
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+/*-----Jumbotron-----*/
+.jumbotron {
+    background: url("https://markitors.com/wp-content/uploads/2015/06/internet-marketing-audit-markitors.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 647px;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.jumbotron p {
+    color: #fff;
+    font-size: 25px;
+    padding-top: 2%;
+}
+
+.request {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    
+}
+.box {
+    height: 46px;
+    padding: 15px 20px;
+    margin: 1%;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.request .btn {
+    background-color: #64bb43!important;
+    color: #fff;
+    padding: 16px 35px;
+    margin-left: 2%;
+}
+
+.jumbotron a:hover {
+    background-color: #83c969;
+}
+/*-----SERVICES-----*/
+
+.subtitle h3, p {
+    text-align: center;
+}
+
+.services .col-md-6 h3 {
+  color: #64bb43;
+} 
+
+.services .col-md-6 p {
+    text-align: left;
+}
+
+.phone {
+    
+    margin-left: 5%;
+}
+
+.laptop {
+    margin: 0 auto;
+}
+
+.btn-cta {
+    display: inline-block;
+    background-color: #00d148;
+    padding: 14px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+    border: 0;
+    border-bottom: 3px solid rgba(0,0,0,.15);
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 6%;
+}
+
+.services a:hover {
+    background-color: #33ff7a; 
+    color: #fff;
+    transition-delay: 0.2s;
+}
+
+
+/*-----PROPOSAL-----*/
+.proposal {
+    background-color: #64bb43;
+    width: 100%;
+    height: 185px;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 45px;
+    margin-top: 120px;
+}
+
+.proposal span {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff; 
+} 
+
+
+.btn-ghost {
+    font-size: 18px;
+    padding: 12px 45px; 
+    border-color: #fff;
+    color: #fff;
+    margin-left: 2%;
+    width: auto;
+}
+
+ a {
+    text-decoration: none;
+}
+
+.proposal a:hover {
+    background-color: #fff;
+    color: #64bb43;
+}
+
+/*-----FEATURE-----*/
+.feature {
+    margin-top: 20px;
+}
+.feature h2 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-inner img {
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+.control .glyphicon {
+  background-color: grey;
+  color: #fff;
+  margin-top: 15%;
+
+}
+
+/*-----testimonials-----*/
+section#themo_testimonials_1 {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.testimonials {
+    width: 100%;
+    height: auto;
+    margin-top: 55px;
+    background: url("https://markitors.com/wp-content/uploads/2014/08/marketing-audit-testimonials-1920x1280.jpg") no-repeat center center; 
+    background-size: cover;
+    height: auto;
+    color: #fff;
+}
+
+.testimonials .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.quote {
+    margin-top: 15px;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 25px 30px 40px; 
+}
+
+.quote blockquote {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 150%;
+    font-style: italic;
+    padding: 0;
+    margin-bottom: 22px;
+    border: 0;
+   
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
+.figcaption-1 a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-----START-----*/
+.start {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.start p {
+    padding-bottom: 40px;
+}
+
+.start h2 {
+    font-size: 28px;
+    margin-bottom: 15px; 
+}
+
+.request2  .btn {
+    background-color: #64bb43!important;
+    color: #fff;
+    padding: 16px 35px;
+    margin-left: 2%;
+}
+
+/*-----FOOTER-----*/
+.footer {
+    background: #2e2e2e;
+    color: #cbcbcb;
+    padding: 60px 0 0;
+    margin-top: -1px;
+}
+
+.footer .row {
+    margin-bottom: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.footer h4 {
+    color: #cbcbcb;
+}
+
+.footer p {
+    text-align: left;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer a {
+    color: #cbcbcb; 
+}
+
+.footer .soc-widget a {
+    color: #4e4e4e;
+}
+
+.soc-widget {
+    font-size: 32px;
+}
+
+.footer i:hover {
+   color: #cbcbcb; 
+}
+
+
+.post-date {
+    display: block;
+    font-size: 12px;
+    color: #848484;
+}
+
+.news {
+    margin-left: -8%;
+}
+
+ hr {
+ color: #2e2e2e;   
+}
+
+
+.footer-btm-bar {
+    background: #262626;
+    padding: 25px 0 15px;
+}
