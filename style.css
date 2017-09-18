@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-nav li {
     font-size: 13px;
-    margin-left: 3%;
+    padding-left: 3%;
 }
 #logo {
    margin-top: 2%;
