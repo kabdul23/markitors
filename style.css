@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom-color:#64bb43;  
 }
 li.dropdown:hover > .dropdown-menu {
-    display: block;
+    display: inline-block;
 }
 
 /*-----Jumbotron-----*/
