@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-nav li {
-    font-size: 9px;
+    font-size: 16px;
 }
 #logo {
    margin-top: 2%;
@@ -92,7 +92,7 @@ li.dropdown:hover > .dropdown-menu {
 .request .btn {
     background-color: #64bb43!important;
     color: #fff;
-    padding: 16px 35px;
+    padding: 10px 30px;
     margin-left: 2%;
 }
 
@@ -288,7 +288,7 @@ a {
 .request2  .btn {
     background-color: #64bb43!important;
     color: #fff;
-    padding: 16px 35px;
+    padding: 10px 30px;
     margin-left: 2%;
 }
 
