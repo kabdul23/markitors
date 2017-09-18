@@ -31,8 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-nav {
     background-color: #fff;
     padding-top: 2%;
-    padding-left: 4%;
-    font-size: 8px;
+    padding-left: 6%;
 }
 
 #logo {
@@ -113,7 +112,7 @@ li.dropdown:hover > .dropdown-menu {
 
 .phone {
     
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 .laptop {
